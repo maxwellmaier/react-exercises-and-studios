@@ -1,11 +1,22 @@
+import React from 'react';
+import recipeData from '../recipe.json'; // Import the recipe JSON file
+
 function AuthorInfo() {
-   return;
- }
- 
- export default AuthorInfo;
- 
- //import styles.css
- //import json file for author info
- //image, name, website
- //css for styling image
- 
+  const { author, authorImage, website } = recipeData[0]; // Extract author information from the recipe data
+
+  // Create variables to render the author's name, image, and URL
+  const recipeAuthor = <div>{author}</div>;
+  const recipeAuthorImage = <img src={authorImage} alt={author} className="authorImage" />;
+  const recipeWebsite = <a href={website}>{website}</a>;
+
+  // Return all variables in a final <div>
+  return (
+    <div>
+      {recipeAuthorImage}
+      {recipeAuthor}
+      {recipeWebsite}
+    </div>
+  );
+}
+
+export default AuthorInfo;

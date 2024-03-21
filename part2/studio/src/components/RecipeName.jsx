@@ -1,9 +1,11 @@
-import recipedata from "./recipe.json";
+import React from 'react';
+import recipeData from '../recipe.json'; // Import the recipe JSON file
 
 function RecipeName() {
-  return recipedata;
+  const { name } = recipeData[0]; // Extract the recipe name from the recipe data
+
+  // Render the recipe name as an <h1> level header
+  return <h1>{name}</h1>;
 }
 
 export default RecipeName;
-
-//import return the name of the recipe as a level 1 header

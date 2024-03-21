@@ -1,18 +1,34 @@
 [
-   {
-     "name": "Stovetop Mac and Cheese",
-     "author": "Stephanie Melchione",
-     "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
-     "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
-     "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
-     "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
-     "ingredients": [
-       "uncooked macaroni",
-       "butter",
-       "flour",
-       "heavy cream",
-       "milk"
-     ]
-   }
- ]
+  {
+    "name": "Stovetop Mac and Cheese",
+    "author": "Stephanie Melchione",
+    "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
+    "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
+    "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
+    "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
+    "ingredients": [
+      "uncooked macaroni",
+      "butter",
+      "flour",
+      "heavy cream",
+      "milk"
+    ]
+  },
+  {
+    "name": "Chicken with Rosemary Butter Sauce",
+    "author": "Connie McDowell",
+    "description": "This elegant rosemary chicken requires minimal effort but will win you major compliments. You'll love the mellow sauce!",
+    "website": "https://www.tasteofhome.com/recipes/chicken-with-rosemary-butter-sauce/",
+    "recipeImage": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Chicken-with-Rosemary-Butter-Sauce_EXPS_FT20_44349_F_0123_1-6.jpg?fit=696,696",
+    "authorImage": "https://www.tasteofhome.com/wp-content/uploads/2022/01/107196RobicelliFisichelli.jpg?resize=295,295",
+    "ingredients": [
+      "chicken breast",
+      "butter",
+      "white wine",
+      "heavy cream",
+      "rosemary"
+    ]
+  }
+]
+
  
